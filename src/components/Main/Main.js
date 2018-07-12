@@ -51,7 +51,7 @@ const Main = () => (
         background: `url('http://www.ddingdong.net/include/img/user/main/dding_sec_bg02.jpg')`,
         backgroundSize: "52rem",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "33rem",
+        backgroundPosition: "73%",
         backgroundColor: "white",
         width: "100%"
       }}

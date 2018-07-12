@@ -52,7 +52,7 @@
   },
   "scripts": {
     "start": "node server",
-    "start:dev": "ode scripts/start.js",
+    "start:dev": "node scripts/start.js",
     "build": "NODE_PATH=src node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "heroku-postbuild": "NODE_PATH=src npm run build"
