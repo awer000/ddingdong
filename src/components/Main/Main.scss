@@ -1,0 +1,194 @@
+@import "utils";
+
+.header-logo {
+  height: 33rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: #fbcf00;
+  .logo {
+    img {
+      height: 9rem;
+    }
+  }
+  .desc {
+    padding-top: 1rem;
+
+    img {
+      height: 9rem;
+    }
+  }
+
+  .download {
+    padding-top: 1rem;
+
+    img + img {
+      margin-left: 0.5rem;
+    }
+    img {
+      cursor: pointer;
+      height: 2.3rem;
+      width: 6.6rem;
+    }
+  }
+}
+
+.main-menu {
+  display: flex;
+  height: 30rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pharse {
+  height: 34rem;
+  background-color: #f5f5f5;
+  .content {
+    display: flex;
+    background: url("http://www.ddingdong.net/include/img/user/main/bg_textarea.png");
+    background-size: 33rem;
+    background-repeat: no-repeat;
+    background-position: 15rem 6rem;
+    z-index: 5;
+    .left-content {
+      display: flex;
+      flex-direction: column;
+      padding-top: 4.5rem;
+      padding-left: 19rem;
+
+      .strong-top {
+        color: $oc-gray-6;
+        font-weight: 800;
+        font-size: 0.9rem;
+      }
+      .textarea {
+        margin-top: 1rem;
+
+        textarea {
+          border: none;
+          outline: none;
+          margin-top: 0.5rem;
+          margin-left: -1rem;
+          height: 11.3rem;
+          width: 25.9rem;
+          font-size: 1.1rem;
+          color: #6c6c6c;
+          padding: 0.5rem;
+          background: transparent;
+          resize: vertical;
+
+          ::-webkit-input-placeholder::before {
+            content: "FIRST\000ASECOND\000ATHIRD";
+          }
+
+          ::-moz-placeholder::before {
+            content: "FIRST\000ASECOND\000ATHIRD";
+          }
+
+          :-ms-input-placeholder::before {
+            content: "FIRST\000ASECOND\000ATHIRD";
+          }
+
+          &::placeholder {
+            font-size: 1rem;
+            font-weight: 500;
+            color: $oc-gray-6;
+          }
+        }
+      }
+      .strong-bottom {
+        margin-top: 1rem;
+        color: $oc-gray-6;
+        font-weight: 800;
+        font-size: 0.9rem;
+      }
+      .buttons {
+        display: flex;
+        margin-top: 1rem;
+        margin-left: -0.5rem;
+
+        .button-box {
+          margin-left: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            cursor: pointer;
+            height: 1.8rem;
+          }
+        }
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: $oc-gray-6;
+        margin-left: 1rem;
+        font-weight: 500;
+      }
+    }
+    .desc {
+      img {
+        position: absolute;
+        height: 11rem;
+        margin: 10rem;
+        margin-left: 12rem;
+      }
+    }
+  }
+}
+
+.app-down {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fdedcc;
+  h2 {
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #484848;
+    letter-spacing: -2px;
+  }
+  .input-box {
+    display: flex;
+    input {
+      width: 19rem;
+      height: 2rem;
+      border: none;
+      outline: none;
+      &::placeholder {
+        font-size: 1rem;
+        color: $oc-gray-5;
+      }
+    }
+    .send-button {
+      padding: 0.5rem;
+      background-color: #707070;
+      width: 5rem;
+      height: 2rem;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .download {
+    padding-top: 2rem;
+
+    img + img {
+      margin-left: 0.5rem;
+    }
+    img {
+      cursor: pointer;
+      height: 2.3rem;
+      width: 6.6rem;
+    }
+  }
+}
